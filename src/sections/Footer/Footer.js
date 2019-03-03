@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import styles from './Footer.module.css'
 import { Container, Row, Col } from 'reactstrap';
 import classNames from 'classnames';
+import GitHub from '../../assets/img/github.svg'
+import Behance from '../../assets/img/behance.svg'
+import LinkedIn from '../../assets/img/linkedin.svg'
 
 class Footer extends Component {
     render() {
@@ -24,6 +27,23 @@ class Footer extends Component {
                                 <li className='list-inline-item'>
                                     <a href='#'>
                                         Contact
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul className={classNames('text-small', 'text-uppercase', 'list-inline')}>
+                                <li className='list-inline-item'>
+                                    <a>
+                                        <img className={styles.socialIcon} src={GitHub} />
+                                    </a>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <a>
+                                        <img className={styles.socialIcon} src={Behance} />
+                                    </a>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <a>
+                                        <img className={styles.socialIcon} src={LinkedIn} />
                                     </a>
                                 </li>
                             </ul>
