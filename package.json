@@ -1,11 +1,13 @@
 {
-  "name": "design",
+  "name": "pickle_design",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "reactstrap": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "classnames": "^2.2.6"
+  }
 }

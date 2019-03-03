@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Border from './components/Border/Border';
+import NavToogle from './components/NavToogle/NavToogle';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Border />
+        <NavToogle/>
+        
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
