@@ -3,14 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import Border from './components/Border/Border';
 import NavToogle from './components/NavToogle/NavToogle';
+import Footer from './sections/Footer/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Border />
-        <NavToogle/>
-        
+        <NavToogle />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -25,6 +25,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Footer />
       </div>
     );
   }
