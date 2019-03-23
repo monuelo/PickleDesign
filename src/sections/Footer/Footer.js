@@ -15,35 +15,35 @@ class Footer extends Component {
                         <Col md="12" className='text-center'>
                             <ul className={classNames('text-small', 'text-uppercase', 'list-inline')}>
                                 <li className='list-inline-item'>
-                                    <a href='#'>
+                                    <button>
                                         Profile
-                                    </a>
+                                    </button>
                                 </li>
                                 <li className='list-inline-item'>
-                                    <a href='#'>
+                                    <button>
                                         Projects
-                                    </a>
+                                    </button>
                                 </li>
                                 <li className='list-inline-item'>
-                                    <a href='#'>
+                                    <button>
                                         Contact
-                                    </a>
+                                    </button>
                                 </li>
                             </ul>
                             <ul className={classNames('text-small', 'text-uppercase', 'list-inline')}>
                                 <li className='list-inline-item'>
-                                    <a>
-                                        <img className={styles.socialIcon} src={GitHub} />
+                                    <a target='_blank' rel='noopener noreferrer' href='https://github.com/hericlesme'>
+                                        <img alt='GitHub' className={styles.socialIcon} src={GitHub} />
                                     </a>
                                 </li>
                                 <li className='list-inline-item'>
-                                    <a>
-                                        <img className={styles.socialIcon} src={Behance} />
+                                    <a target='_blank' rel='noopener noreferrer' href='https://behance.net/hericlesme'>
+                                        <img alt='Behance' className={styles.socialIcon} src={Behance} />
                                     </a>
                                 </li>
                                 <li className='list-inline-item'>
-                                    <a>
-                                        <img className={styles.socialIcon} src={LinkedIn} />
+                                    <a target='_blank' rel='noopener noreferrer' href='https://linkedin.com/in/hericlesme'>
+                                        <img alt='Linkedin' className={styles.socialIcon} src={LinkedIn} />
                                     </a>
                                 </li>
                             </ul>

@@ -1,5 +1,12 @@
+@font-face {
+  font-family: Evolve;
+  src: url('./assets/fonts/Evolve\ Sans\ Regular\ EVO.otf');
+}
+
 .App {
   text-align: center;
+  margin: 20px;
+  font-family: 'Evolve', sans-serif;
 }
 
 .App-logo {
@@ -30,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+button {
+  color: #421b9b !important;
+  transition: .2s;
+  border: none;
+  background: unset;
+  text-transform: uppercase !important;
+}
+
+button:hover {
+  text-decoration: none !important;
+  transform: scale(1.2) !important;
+}
+
+button:focus {
+  outline: none !important;
 }
