@@ -4,28 +4,28 @@ self.__precacheManifest = [
     "url": "/static/media/github.a818fa07.svg"
   },
   {
-    "revision": "a8447befae76609117fc",
-    "url": "/static/css/main.78716f32.chunk.css"
+    "revision": "f1a8e33f69eeb16f6f93",
+    "url": "/static/css/main.4ee6419d.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "c8d9844f407697a922f2b2e1c24d0af7",
-    "url": "/static/media/Evolve Sans Regular EVO.c8d9844f.otf"
+    "revision": "bf89b1e77f10bbf340f215457ef51e78",
+    "url": "/static/media/Jaapokki-Regular.bf89b1e7.otf"
   },
   {
-    "revision": "f0237d1af2448a3be5fd",
-    "url": "/static/js/2.f0237d1a.chunk.js"
+    "revision": "71e8199e20019563c00d",
+    "url": "/static/js/2.71e8199e.chunk.js"
   },
   {
     "revision": "397da67c8832f6ed5e892b1090e69a3f",
     "url": "/static/media/bg.397da67c.jpg"
   },
   {
-    "revision": "a8447befae76609117fc",
-    "url": "/static/js/main.a8447bef.chunk.js"
+    "revision": "f1a8e33f69eeb16f6f93",
+    "url": "/static/js/main.f1a8e33f.chunk.js"
   },
   {
     "revision": "be386c3876eed88d1b114cce85dfdec4",
@@ -40,11 +40,15 @@ self.__precacheManifest = [
     "url": "/static/media/WhiteLogo.7d3d34e7.png"
   },
   {
-    "revision": "f0237d1af2448a3be5fd",
+    "revision": "c8d9844f407697a922f2b2e1c24d0af7",
+    "url": "/static/media/Evolve Sans Regular EVO.c8d9844f.otf"
+  },
+  {
+    "revision": "71e8199e20019563c00d",
     "url": "/static/css/2.59ef2a8b.chunk.css"
   },
   {
-    "revision": "994447eef6e93dc3f689f850fedfa47d",
+    "revision": "46e9baee5166fd4617ec325fcabeb1d6",
     "url": "/index.html"
   }
 ];
