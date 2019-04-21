@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Masthead.module.css';
 import TextLoop from "react-text-loop";
+import WhiteLogo from "../../assets/img/WhiteLogo.png";
 
 class Masthead extends Component {
 
@@ -15,9 +16,7 @@ class Masthead extends Component {
     render() {
         return (
             <div className={styles.masthead}>
-                <h1 className={styles.title}>
-                    Hi! I'm <span>Pickle</span>.
-                </h1>
+                <img src={WhiteLogo} alt='Logo' className={styles.logo}/>
                 <TextLoop children={this.state.roles} className={styles.role} interval={4000} />
             </div>
         );

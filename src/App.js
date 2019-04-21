@@ -4,6 +4,7 @@ import Border from './components/Border/Border';
 import NavToogle from './components/NavToogle/NavToogle';
 import Footer from './sections/Footer/Footer';
 import Masthead from './sections/Masthead/Masthead';
+import About from './sections/About/About';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Border />
         <NavToogle />
         <Masthead/>
+        <About/>
         <Footer />
       </div>
     );

@@ -3,6 +3,11 @@
   src: url('./assets/fonts/Evolve\ Sans\ Regular\ EVO.otf');
 }
 
+@font-face {
+  font-family: Jaapokki;
+  src: url('./assets/fonts/Jaapokki-Regular.otf');
+}
+
 .App {
   text-align: center;
   margin: 20px;
@@ -41,7 +46,7 @@
 
 
 button {
-  color: #421b9b !important;
+  color: #1a1a1a !important;
   transition: .2s;
   border: none;
   background: unset;
